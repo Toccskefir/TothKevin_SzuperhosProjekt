@@ -8,7 +8,7 @@ namespace SzuperhosProjekt
 {
     public interface ISzuperhos
     {
-        bool LegyoziE(ISzuperhos otherHero);
+        bool LegyoziE(ISzuperhos szuperhos);
         double MekkoraAzEreje();
     }
 }
