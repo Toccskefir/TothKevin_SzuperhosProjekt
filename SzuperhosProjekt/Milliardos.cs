@@ -6,9 +6,8 @@ using System.Threading.Tasks;
 
 namespace SzuperhosProjekt
 {
-    public interface ISzuperhos
+    public interface IMilliardos
     {
-        bool LegyoziE(ISzuperhos otherHero);
-        double MekkoraAzEreje();
+        void KutyutKeszit();
     }
 }
