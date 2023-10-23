@@ -24,7 +24,8 @@ namespace SzuperhosProjekt
         {
             if (szuperhos.GetType() == typeof(Bosszuallo))
             {
-                if (szuperhos.MekkoraAzEreje() < this.szuperero)
+                Bosszuallo sz = (Bosszuallo)szuperhos;
+                if (szuperhos.MekkoraAzEreje() < this.szuperero && sz.VanEGyengesege)
                 {
                     return true;
                 }
