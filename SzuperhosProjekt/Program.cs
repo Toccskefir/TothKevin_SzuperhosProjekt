@@ -10,7 +10,15 @@ namespace SzuperhosProjekt
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            try
+            {
+                Kepregeny.Szereplok("files/szuperhosok.txt");
+                Kepregeny.Szuperhosok();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+            }
         }
     }
 }
